@@ -332,3 +332,61 @@ git log --date=format:'%D' --pretty=format:"%h -> %cd, %cn ( %s )"
 git push
 
 После чего все локальные изменения ветки Report появятся в удалённом репозитории
+
+## Лог файлов
+git config --global user.name "(username)"
+
+git config --global user.email "(email)"
+
+cd (путь)
+
+git clone (ссылка на удалённый репозиторий)
+
+git pull
+
+ls -1 
+
+git log (Название ветки)
+
+git log master
+
+git checkout (название ветки)
+
+git show branch1
+
+git show master
+
+git merge (Название второй ветки)
+
+git diff
+
+git add (Название файла)
+
+git status
+
+git commit -m "(Комментарий)"
+
+git push
+
+git branch -d (Название ветки)
+
+git push origin --delete branch1
+
+echo "Новый текст файла" > (Название файла).txt
+
+git reset HEAD~1
+
+git push origin Report
+
+## История операций в отформатированном виде
+$ git log --date=format:'%D' --pretty=format:"%h -> %cd, %cn ( %s )"
+63887e2 -> 11/07/26, danila200609@gmail.com ( Create first file )
+c3eb6cc -> 11/06/26, danila200609@gmail.com ( Conflict has been resolved! )
+b283d9c -> 11/06/26, GitHub ( Create new_file )
+921f53b -> 11/21/20, GitHub ( Обновление информации )
+0f9f50d -> 11/21/20, GitHub ( Заполнил файл )
+c08a654 -> 11/21/20, GitHub ( Файл создан пустым )
+3c6e913 -> 11/21/20, GitHub ( Initial commit )
+
+## Вывод
+В ходе данной лабораторной работы были изучены базовые возможности системы управления версиями, а также получен опыт работы с Git Api и опыт работы с локальным и удаленным репозиторием.
