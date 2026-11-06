@@ -379,13 +379,21 @@ git reset HEAD~1
 git push origin Report
 
 ## История операций в отформатированном виде
+
 $ git log --date=format:'%D' --pretty=format:"%h -> %cd, %cn ( %s )"
+
 63887e2 -> 11/07/26, danila200609@gmail.com ( Create first file )
+
 c3eb6cc -> 11/06/26, danila200609@gmail.com ( Conflict has been resolved! )
+
 b283d9c -> 11/06/26, GitHub ( Create new_file )
+
 921f53b -> 11/21/20, GitHub ( Обновление информации )
+
 0f9f50d -> 11/21/20, GitHub ( Заполнил файл )
+
 c08a654 -> 11/21/20, GitHub ( Файл создан пустым )
+
 3c6e913 -> 11/21/20, GitHub ( Initial commit )
 
 ## Вывод
