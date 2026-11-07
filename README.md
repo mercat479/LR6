@@ -77,7 +77,7 @@ https://github.com/Kurtyanik/LR6/ (Fork).
 ### 4. Настройка клиента Git
 Чтобы указать имя пользователя и email в клиенте Git, необходимо воспользоваться соответствующими командами:
 
-'''git config --global user.name "(username)" '''
+```git config --global user.name "(username)" ```
 
 '''git config --global user.email "(email)" '''
 
